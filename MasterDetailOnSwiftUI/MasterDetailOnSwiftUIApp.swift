@@ -11,9 +11,9 @@ import SwiftUI
 struct MasterDetailOnSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            MasterDetail1View()
+//            MasterDetail1View()
 //            MasterDetail2View()
-//            MasterDetail3View()
+            MasterDetail3View()
         }
     }
 }

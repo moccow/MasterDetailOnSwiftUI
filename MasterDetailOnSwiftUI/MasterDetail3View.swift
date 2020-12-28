@@ -29,14 +29,11 @@ struct MasterDetail3View: View {
                 }
                 .onAppear {
                     self.selectedFruit = "Apple"
-                    UITableView.appearance().allowsSelection = false
-                    UITableViewCell.appearance().selectionStyle = .none
-                    UITableView.appearance().separatorStyle = .none
                 }
             }
             .navigationBarHidden(true)
             // セルの表示形式を横幅いっぱいにする
-            .listStyle(PlainListStyle())
+//            .listStyle(PlainListStyle())
 
             // Listと同じ階層にDetailを配置する
             Detail(title: selectedFruit)
